@@ -18,7 +18,7 @@ This checks out your specific feature branch created under your issue. Once your
 
 If you want to see what has yet to be added/committed, `git status` is a friend. It also will tell you what branch you are currently on, and how far ahead or behind it is from its remote version. I use `git status` compulsively like one would twirl a pen. 
 
-Once you add all your new files to the git tracker, when you are happy with their state to the point that you want to push them up to your remote repository (your feature branch on github.com), it's time to commit! If you want to see the difference between what is up in the remote repository and what you are about to commit, try `git diff file(s)` or just `git diff` for everything. It will show you what is there in red and what you are changing in green. Note this is only for things that have not already been committed. 
+Once you add all your new files to the git tracker, when you are happy with their state to the point that you want to push them up to your remote repository (your feature branch on github.com), it's time to commit! If you want to see the difference between what is currently on the branch and what you are about to commit, try `git diff file(s)` or just `git diff` for everything. Note this is only for things that have not already been committed. 
 
 `git commit file(s)/directory -m "comment describing commit"`
 
